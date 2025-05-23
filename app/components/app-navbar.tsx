@@ -36,8 +36,8 @@ const AppNavbar = () => {
             icon: <CameraIcon className="h-5 w-5" />
         },
         { 
-            name: 'AR View', 
-            path: '/ar-view',
+            name: 'VR View', 
+            path: '/vr-view',
             icon: <ViewIcon className="h-5 w-5" />
         },
         { 

@@ -3,7 +3,7 @@ import { CloudUploadIcon, RefreshCw, XIcon } from 'lucide-react'
 import { Button } from './ui/button'
 import { cn } from '~/lib/utils'
 
-const ARView = () => {
+const VRView = () => {
     const [file, setFile] = useState<File | null>(null)
     const [fileName, setFileName] = useState<string | null>(null)
     const [isLoading, setIsLoading] = useState(false)
@@ -30,11 +30,11 @@ const ARView = () => {
                 </span>
                 <h1 className="mt-4 scroll-m-20 font-inter text-4xl font-extrabold tracking-tight lg:text-5xl">
                     <span className="bg-gradient-to-b from-foreground to-foreground/70 bg-clip-text text-transparent">
-                        AR View
+                        VR View
                     </span>
                 </h1>
                 <p className="mt-4 text-lg text-muted-foreground">
-                    Upload your STL files to view and interact with 3D kidney models in augmented reality.
+                    Upload your STL files to view and interact with 3D kidney models in virtual reality.
                 </p>
             </div>
 
@@ -82,7 +82,7 @@ const ARView = () => {
                                 </Button>
                                 <Button className="flex-1">
                                     <RefreshCw className="mr-2 h-4 w-4" />
-                                    View in AR
+                                    View in VR
                                 </Button>
                             </div>
                         )}
@@ -117,4 +117,4 @@ const ARView = () => {
     )
 }
 
-export default ARView 
+export default VRView 

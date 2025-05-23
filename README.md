@@ -1,47 +1,93 @@
-# SaasStellar - SaaS Landing Page Template 🚀
+# KidneyScan AI - Kidney Cancer Detection Frontend
 
-SaasStellar is a modern SaaS landing page template built with [Remix](https://remix.run/), [TailwindCSS](https://tailwindcss.com/), and [shadcn/ui](https://ui.shadcn.com/). It's packed with features:
+A modern web application for kidney cancer detection and analysis, built with Remix and TypeScript.
 
--   **11 Themes to choose from.** 🌟
--   **SEO Ready with OpenGraph.** 🔍
--   **Google and Vercel Analytics integration.** 📊
--   **Automatic sitemap generation.** 🗺️
--   **Prettier & ESLint configured for code quality.** 💻
--   **Fully responsive and accessible.** 📱♿
--   **Form submissions with Formspree.** 📝
--   **Efficient performance with Partytown integration.** 🎉
+## Features
 
-## Live Demo
+- **Image Analysis**: Upload and analyze kidney scan images for cancer detection
+- **VR Visualization**: View and interact with 3D kidney models in virtual reality
+- **AI Assistant**: Get instant answers to your medical queries
+- **Modern UI**: Beautiful and responsive interface with dark mode support
+- **Theme Customization**: Multiple color themes to choose from
 
-See it in action: [https://saasstellar.nader.run/](https://saasstellar.nader.run/)
+## Tech Stack
 
-## Get Started 🛠️
+- **Framework**: [Remix](https://remix.run/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **UI Components**: Custom components with [shadcn/ui](https://ui.shadcn.com/)
+- **Icons**: [Lucide Icons](https://lucide.dev/)
+- **Package Manager**: [pnpm](https://pnpm.io/)
 
-1. Clone this repository:
+## Getting Started
 
-    ```bash
-    git clone https://github.com/stormynight9/saasstellar
-    ```
+### Prerequisites
 
-2. Install dependencies
-    ```bash
-    cd ssasstellar
-    pnpm install
-    ```
+- Node.js (v18 or higher)
+- pnpm
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/Kidney_Cancer_Detection_Frontend.git
+cd Kidney_Cancer_Detection_Frontend
+```
+
+2. Install dependencies:
+```bash
+pnpm install
+```
+
 3. Start the development server:
-    ```bash
-    pnpm dev
-    ```
+```bash
+pnpm dev
+```
 
-## License 📜
+The application will be available at `http://localhost:3000`.
 
-Open source under [MIT License](https://github.com/stormynight9/saasstellar/blob/main/LICENCE).
+## Project Structure
 
-## Acknowledgement 🙌
+```
+app/
+├── components/     # Reusable UI components
+├── routes/        # Application routes
+├── lib/          # Utility functions and configurations
+├── hooks/        # Custom React hooks
+└── registry/     # Theme and style configurations
+```
 
--   [Remix](https://remix.run/)
--   [TailwindCSS](https://tailwindcss.com/)
--   [shadcn/ui](https://ui.shadcn.com/)
--   [Formspree](https://formspree.io/)
+## Features in Detail
 
-Questions? Reach out anytime! Good luck with your SaasStellar landing page! 🚀🌟
+### Image Analysis
+- Upload kidney scan images
+- Real-time analysis with AI
+- Detailed results and insights
+
+### VR Visualization
+- Upload STL files of kidney models
+- Interactive 3D visualization
+- Virtual reality support
+
+### AI Assistant
+- Natural language interface
+- Medical knowledge base
+- Instant responses to queries
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Medical imaging data providers
+- Open source community
+- Healthcare professionals for their valuable feedback
